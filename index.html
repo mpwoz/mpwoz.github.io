@@ -1,23 +1,21 @@
 ---
 layout: default
 ---
+<head>
+  <link rel="stylesheet" href="/css/main.css" type="text/css" />
+  <title>Martin Wozniewicz</title>
+</head>
 
-<div class="home">
+<body>
+  <div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+    <h2 class="header-title">Martin Wozniewicz</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a href="/">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="static/Martin_Wozniewicz_Resume.pdf" target="_blank">Resume</a>
+    <a href="blog" >Blog</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </div>
+</body>
+</html>
