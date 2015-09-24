@@ -1,6 +1,10 @@
 ---
 published: true
+layout: post
+date: 2015-09-23T00:00:00.000Z
+permalink: /sample
 ---
+
 
 
 ## A New Post
