@@ -459,3 +459,9 @@ hr {
   content: "";
   display: table;
   clear: both; }
+
+.spaced-link {
+  margin-right: 1em; }
+
+.caption {
+  margin-top: -20px; }
