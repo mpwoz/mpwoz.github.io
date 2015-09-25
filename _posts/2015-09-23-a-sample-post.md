@@ -1,7 +1,6 @@
 ---
 published: true
 layout: post
-date: {}
 permalink: /sample
 ---
 
