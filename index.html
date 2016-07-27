@@ -10,18 +10,17 @@ layout: default
   <div class="container">
 
     <h2 class="header-title">Martin Wozniewicz</h2>
-    <p class="caption"> Developer based in Seattle, WA </p>
 
-    <a class="spaced-link" href="http://github.com/mpwoz">Github</a>
-    <a class="spaced-link" href="http://linkedin.com/in/mpwoz">LinkedIn</a>
-    <a class="spaced-link" href="mailto:martin.woz@gmail.com">Email</a>
+    <a href="mailto:me@mpwoz.com">Email</a>
+    <a href="http://github.com/mpwoz">Github</a>
+    <a href="http://linkedin.com/in/mpwoz">LinkedIn</a>
 
+    <hr>
     {% for post in site.posts %}
     <li>
       <a href="{{post.url | prepend: site.baseurl }}">
         {{ post.title }}
       </a>
-      {{ post.date | date: '%-m.%-d.%y' }}
     </li>
     {% endfor %}
 
