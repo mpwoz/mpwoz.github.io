@@ -5,7 +5,7 @@ generate_feeds = true
 compile_sass = true
 minify_html = true
 default_language = "en"
-taxonomies = [{name = "tags", feed = true}]
+taxonomies = [{ name = "tags", feed = true }]
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -207,9 +207,10 @@ invert_title_order = false
 
 menu = [
     { name = "posts", url = "blog", trailing_slash = true },
-#    { name = "archive", url = "archive", trailing_slash = true },
-#    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "projects", url = "projects", trailing_slash = true },
+    #    { name = "archive", url = "archive", trailing_slash = true },
+    #    { name = "tags", url = "tags", trailing_slash = true },
+#    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "resume", url = "https://raw.githubusercontent.com/mpwoz/resume/master/MartinWozniewicz_Resume_29Oct2020.pdf?token=GHSAT0AAAAAADELHO7VNTQOU7JP7PM4J2N22CUHO7A", trailing_slash = false },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
