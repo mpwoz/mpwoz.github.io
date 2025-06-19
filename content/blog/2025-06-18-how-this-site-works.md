@@ -26,6 +26,11 @@ some point I'll migrate this one too. One thing to note is that because this is
 an old Google Domains account, you need to log into Squarespace with Google (not
 email).
 
+Github has [good
+documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#dns-records-for-your-custom-domain)
+on how to set up DNS so that it points to the correct place and supports
+subdomains, like `www.mpwoz.com` and HTTPS.
+
 Finally, all the source is hosted (and served from) [Github
 pages](https://github.com/mpwoz/mpwoz.github.io/settings/pages) since it's just
 a static HTML site once it's built. The Github repo has a few CI actions that
