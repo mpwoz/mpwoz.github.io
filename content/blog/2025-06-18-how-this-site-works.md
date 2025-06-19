@@ -1,7 +1,7 @@
 +++
 title = "How This Site Works"
 date = "2025-06-18"
-description = "Description of how the site is set up"
+description = "Description of how this website is set up, for future me (or you!)"
 +++
 
 This post serves as a sort of README for my future self, to make setting up the
@@ -31,7 +31,7 @@ documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-
 on how to set up DNS so that it points to the correct place and supports
 subdomains, like `www.mpwoz.com` and HTTPS.
 
-Finally, all the source is hosted (and served from) [Github
+Finally, all the source code is hosted (and served from) [Github
 pages](https://github.com/mpwoz/mpwoz.github.io/settings/pages) since it's just
 a static HTML site once it's built. The Github repo has a few CI actions that
 build the site every time I commit, which lets me add posts or make small tweaks
