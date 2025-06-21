@@ -10,5 +10,5 @@ header = {title = "Hello! I'm Martin", img = "me.jpg", img_alt = "Martin Wozniew
 
 
 I've been making software for over 15 years, most of that in the Pacific
-Northwest. I enjoy spending time with my two daughters, playing and making
-games, and baking sourdough.
+Northwest. I enjoy spending time with my wife and two daughters, playing and
+making games, and baking sourdough.
